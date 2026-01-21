@@ -1,16 +1,30 @@
-<font-loader-component></font-loader-component>
-<header-component
-  video="../../public/videos/header-bistro.mp4"
-  title="BISTRO"
-  time="17:30-22:00"
-  days="Miércoles-Sábado"
-  active="bistro">
-</header-component>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pura Vida</title>
 
-<hero-component></hero-component>
-<cards-component></cards-component>
+  <link rel="stylesheet" href="/app.css" />
+  <script type="module" src="/src/index.js"></script>
+</head>
 
-<image-gallery-component></image-gallery-component>
-<postcards-component></postcards-component>
+<body>
+  <font-loader-component></font-loader-component>
+  <header-component
+    video="/videos/header-home.mp4"
+    title="BISTRO"
+    time="17:30-22:00"
+    days="Miércoles-Sábado"
+    active="bistro">
+  </header-component>
 
-<footer-component></footer-component>
+  <hero-component></hero-component>
+  <cards-component></cards-component>
+
+  <image-gallery-component></image-gallery-component>
+  <postcards-component></postcards-component>
+
+  <footer-component></footer-component>
+</body>
+</html>
